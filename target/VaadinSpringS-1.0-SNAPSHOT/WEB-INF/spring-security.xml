@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:beans="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+              http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
+              http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+
+    <security:http pattern="/VAADIN/**" security="none"/>
+    <security:http pattern="/HEARBEAT/**" security="none"/>
+    <!-- Enable auto-wiring -->
+    <context:annotation-config/>
+
+    <!-- Scan for auto-wiring classes in spring packages -->
+    <context:component-scan base-package="VaadinSpringS"/>
+
+    <!-- Enable the @Secured annotation to secure service layer methods   -->
+    <security:global-method-security secured-annotations="enabled"/>
+
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:user-service>
+                <security:user name="alaaeddine_maggouh@clt-ufa.com" password="password88" authorities="ROLE_USER"/>
+                <security:user name="alaaeddine.maggouh@gmail.com" password="password88" authorities="ROLE_ADMIN"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+    <security:http auto-config="true" use-expressions="false">
+        <security:csrf disabled="true"/>
+        <security:intercept-url pattern="/UIDL/**" access="ROLE_ADMIN"/>
+        <security:intercept-url pattern="/**" access="ROLE_ADMIN"/>
+        <security:intercept-url pattern="/WEB-INF/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <security:intercept-url pattern="/#!login" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+    </security:http>
+
+</beans>
