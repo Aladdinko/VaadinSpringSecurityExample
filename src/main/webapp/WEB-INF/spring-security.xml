@@ -23,8 +23,8 @@
     <security:authentication-manager>
         <security:authentication-provider>
             <security:user-service>
-                <security:user name="alaaeddine_maggouh@clt-ufa.com" password="password88" authorities="ROLE_USER"/>
-                <security:user name="alaaeddine.maggouh@gmail.com" password="password88" authorities="ROLE_ADMIN"/>
+                <security:user name="azerty@azerty.com" password="password88" authorities="ROLE_USER"/>
+                <security:user name="qwerty@qwerty.com" password="password88" authorities="ROLE_ADMIN"/>
             </security:user-service>
         </security:authentication-provider>
     </security:authentication-manager>
