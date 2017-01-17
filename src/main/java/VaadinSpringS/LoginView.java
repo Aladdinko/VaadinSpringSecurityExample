@@ -21,10 +21,13 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 
 public class LoginView extends CustomComponent implements View, Button.ClickListener {
 
-    public static final String NAME = "login";
+    public static final String NAME = "";
     private final TextField user;
     private final PasswordField password;
+
+
     private final Button loginButton;
+
 
     public LoginView() {
 
@@ -48,10 +51,10 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
         loginButton = new Button("Login", this);
 
         //Add both to a panel
-        VerticalLayout fields = new VerticalLayout(user,password,loginButton);
+        VerticalLayout fields = new VerticalLayout(user, password, loginButton);
         fields.setCaption("Please login to access the application.");
         fields.setSpacing(true);
-        fields.setMargin(new MarginInfo(true,true,true,false));
+        fields.setMargin(new MarginInfo(true, true, true, false));
         fields.setSizeUndefined();
 
         //The view root layout
@@ -65,7 +68,7 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
     @Override
     public void buttonClick(Button.ClickEvent clickEvent) {
 
-        if(!user.isValid() || !password.isValid()) {
+        if (!user.isValid() || !password.isValid()) {
             return;
         }
         try {
@@ -76,16 +79,18 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
             AuthenticationManager authenticationManager = (AuthenticationManager) ctx.getBean("org.springframework.security.authenticationManager");
             Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
 
-            if(authentication.isAuthenticated()) {
-                getSession().setAttribute("user", username);
+            if (authentication.isAuthenticated()) {
+                getSession().setAttribute("user", authentication.getName());
                 getUI().getNavigator().navigateTo(LoginMainView.NAME);
             } else {
+                Notification.show("The user or password is not valid");
                 this.password.setValue(null);
                 this.password.focus();
             }
-
-        }catch (BadCredentialsException e) {
+        } catch (BadCredentialsException e) {
             Notification.show("The user or password is not valid");
+            this.password.setValue(null);
+            this.password.focus();
         }
     }
 

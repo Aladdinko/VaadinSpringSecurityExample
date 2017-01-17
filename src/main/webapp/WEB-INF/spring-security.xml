@@ -7,7 +7,8 @@
               http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
               http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
-
+    <security:http pattern="/WEB-INF/**" security="none"/>
+    <security:http pattern="/UIDL/**" security="none"/>
     <security:http pattern="/VAADIN/**" security="none"/>
     <security:http pattern="/HEARBEAT/**" security="none"/>
     <!-- Enable auto-wiring -->
@@ -23,20 +24,19 @@
         <security:authentication-provider>
             <security:user-service>
                 <security:user name="user@user.com" password="password88" authorities="ROLE_USER"/>
-                <security:user name="admin@admin.com" password="password88" authorities="ROLE_ADMIN"/>
+                <security:user name="admin@admin.com" password="password88" authorities="ROLE_USER, ROLE_ADMIN"/>
             </security:user-service>
         </security:authentication-provider>
     </security:authentication-manager>
 
     <security:http auto-config="true" use-expressions="false">
         <security:csrf disabled="true"/>
-        <security:intercept-url pattern="/UIDL/**" access="ROLE_ADMIN"/>
-        <security:intercept-url pattern="/*" access="ROLE_ADMIN"/>
-        <security:intercept-url pattern="/**" access="ROLE_ADMIN"/>
-        <security:intercept-url pattern="/WEB-INF/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <security:intercept-url pattern="/login" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <security:form-login login-processing-url="/j_spring_security_check" login-page="/login"/>
-        <!--<security:form-login login-page="/login"  />-->
+        <security:form-login login-page= "/"/>
+        <!--<security:intercept-url pattern="/*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>-->
+        <security:intercept-url pattern="/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <security:intercept-url pattern="/#!admin" access="ROLE_ADMIN"/>
+        <security:intercept-url pattern="/#!admin*" access="ROLE_ADMIN"/>
+        <security:intercept-url pattern="/#!admin/**" access="ROLE_ADMIN"/>
     </security:http>
 
 </beans>

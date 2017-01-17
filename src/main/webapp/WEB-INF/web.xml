@@ -43,7 +43,7 @@
 
     <servlet-mapping>
         <servlet-name>vaadinServlet</servlet-name>
-        <url-pattern>/login</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
 

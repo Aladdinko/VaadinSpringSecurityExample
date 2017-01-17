@@ -14,7 +14,8 @@ import org.springframework.security.access.annotation.Secured;
 @Secured("ROLE_ADMIN")
 public class LoginMainView extends CustomComponent implements View {
 
-    public static final String NAME = "";
+    public static final String NAME = "admin";
+
     Label text = new Label();
     Button logout = new Button("Logout", new Button.ClickListener() {
         @Override
@@ -24,10 +25,12 @@ public class LoginMainView extends CustomComponent implements View {
         }
     });
 
+
     public LoginMainView() {
         setCompositionRoot(new CssLayout(text, logout));
     }
 
+    @Secured("ROLE_ADMIN")
     @Override
     public void enter(ViewChangeListener.ViewChangeEvent event) {
         String username = String.valueOf(getSession().getAttribute("user"));
