@@ -10,7 +10,7 @@
     <file type="gwt" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="IdProvider" IDEtalkID="41D72ACA1B3BC0CCC1465C95B43A4C00" />
+  <component name="IdProvider" IDEtalkID="5251F15B56940EDDCDED91E163D4693D" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -144,33 +144,6 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 
