@@ -15,28 +15,23 @@
     <context:annotation-config/>
 
     <!-- Scan for auto-wiring classes in spring packages -->
-    <context:component-scan base-package="VaadinSpringS"/>
+    <context:component-scan base-package="vaadinSpringSecurity"/>
 
     <!-- Enable the @Secured annotation to secure service layer methods   -->
-    <security:global-method-security secured-annotations="enabled"/>
+    <security:global-method-security pre-post-annotations="enabled" secured-annotations="enabled"/>
 
-    <security:authentication-manager>
-        <security:authentication-provider>
-            <security:user-service>
-                <security:user name="user@user.com" password="password88" authorities="ROLE_USER"/>
-                <security:user name="admin@admin.com" password="password88" authorities="ROLE_USER, ROLE_ADMIN"/>
-            </security:user-service>
+    <security:authentication-manager alias="authenticationManager">
+        <security:authentication-provider ref="CustomAuthenticationProvider">
         </security:authentication-provider>
     </security:authentication-manager>
+
+    <bean id="CustomAuthenticationProvider" class="vaadinSpringSecurity.CustomAuthenticationProvider"/>
 
     <security:http auto-config="true" use-expressions="false">
         <security:csrf disabled="true"/>
         <security:form-login login-page= "/"/>
-        <!--<security:intercept-url pattern="/*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>-->
-        <security:intercept-url pattern="/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <security:intercept-url pattern="/#!admin" access="ROLE_ADMIN"/>
-        <security:intercept-url pattern="/#!admin*" access="ROLE_ADMIN"/>
-        <security:intercept-url pattern="/#!admin/**" access="ROLE_ADMIN"/>
+        <security:intercept-url pattern="/" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <security:intercept-url pattern="/admin" access="ROLE_ADMIN"/>
     </security:http>
 
 </beans>

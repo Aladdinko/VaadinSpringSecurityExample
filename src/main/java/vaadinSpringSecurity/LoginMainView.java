@@ -1,22 +1,22 @@
-package VaadinSpringS;
+package vaadinSpringSecurity;
 
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
-import com.vaadin.ui.Button;
-import com.vaadin.ui.CssLayout;
-import com.vaadin.ui.CustomComponent;
-import com.vaadin.ui.Label;
-import org.springframework.security.access.annotation.Secured;
+import com.vaadin.ui.*;
+import controller.TestController;
 
 /**
  * Created by maggouh on 10/01/17.
  */
-@Secured("ROLE_ADMIN")
+
 public class LoginMainView extends CustomComponent implements View {
+
+    TestController testController = new TestController();
 
     public static final String NAME = "admin";
 
     Label text = new Label();
+    VerticalLayout layout;
     Button logout = new Button("Logout", new Button.ClickListener() {
         @Override
         public void buttonClick(Button.ClickEvent event) {
@@ -27,13 +27,21 @@ public class LoginMainView extends CustomComponent implements View {
 
 
     public LoginMainView() {
-        setCompositionRoot(new CssLayout(text, logout));
+        layout = new VerticalLayout();
+        layout.addComponent(new CssLayout(text, logout));
+
+        setCompositionRoot(layout);
+
     }
 
-    @Secured("ROLE_ADMIN")
     @Override
     public void enter(ViewChangeListener.ViewChangeEvent event) {
         String username = String.valueOf(getSession().getAttribute("user"));
         text.setValue("Hello " + username);
+        String value = testController.test();
+        layout.addComponent(new Label(value));
+
     }
+
+
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VaadinSpringS.iml" filepath="$PROJECT_DIR$/VaadinSpringS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VaadinSpringSecurity.iml" filepath="$PROJECT_DIR$/VaadinSpringSecurity.iml" />
     </modules>
   </component>
 </project>

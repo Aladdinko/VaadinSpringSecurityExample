@@ -18,6 +18,7 @@
         </param-value>
     </context-param>
 
+    <!--Spring's DelegatingFilterProxy provides the link between web.xml and the application context.-->
     <filter>
         <filter-name>springSecurityFilterChain</filter-name>
         <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
@@ -37,7 +38,7 @@
         <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
         <init-param>
             <param-name>UI</param-name>
-            <param-value>VaadinSpringS.MyUI</param-value>
+            <param-value>vaadinSpringSecurity.MyUI</param-value>
         </init-param>
     </servlet>
 

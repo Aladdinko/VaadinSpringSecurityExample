@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="VaadinSpringS:war">
+  <artifact type="war" name="VaadinSpringSecurity:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="VaadinSpringSecurity-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="VaadinSpringS:war exploded" />
+      <element id="artifact" artifact-name="VaadinSpringSecurity:war exploded" />
     </root>
   </artifact>
 </component>
