@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="Remove resources *.xml">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/AccessDeniedView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\VaadinSpringS.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/VaadinSpringS_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/VaadinSpringSecurity_war.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/VaadinSpringS_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/VaadinSpringSecurity_war_exploded.xml" />
-      <change type="MOVED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\src\main\java\VaadinSpringS\LoginMainView.java" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginMainView.java" />
-      <change type="MOVED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\src\main\java\VaadinSpringS\LoginView.java" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java" />
-      <change type="MOVED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\src\main\java\VaadinSpringS\MyUI.java" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/MyUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="change from authentication manager to authentication provider">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VaadinSpringS.iws" />
@@ -1095,7 +1079,7 @@
       <workItem from="1484835034301" duration="4563000" />
       <workItem from="1484899007244" duration="18402000" />
       <workItem from="1484920829829" duration="7855000" />
-      <workItem from="1485158333845" duration="9564000" />
+      <workItem from="1485158333845" duration="9826000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1484641639581</created>
@@ -1121,11 +1105,15 @@
       <created>1484663988183</created>
       <updated>1484663988183</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change from authentication manager to authentication provider">
+      <created>1485168990361</created>
+      <updated>1485168990361</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175244000" />
+    <option name="totallyTimeSpent" value="175506000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1204,7 +1192,8 @@
     <MESSAGE value="test&#10;" />
     <MESSAGE value="rectification : intercept-url" />
     <MESSAGE value="Remove resources *.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove resources *.xml" />
+    <MESSAGE value="change from authentication manager to authentication provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="change from authentication manager to authentication provider" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VssConfiguration">
