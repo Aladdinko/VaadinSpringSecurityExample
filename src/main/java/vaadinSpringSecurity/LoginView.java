@@ -13,7 +13,6 @@ import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
@@ -81,21 +80,20 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
             String password = this.password.getValue();
             Authentication authentication = authenticationProvider.authenticate(new UsernamePasswordAuthenticationToken(username, password));
             Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
-            boolean authorized = authorities.contains(new SimpleGrantedAuthority("ROLE_ADMIN"));
+//            boolean authorized = authorities.contains(new SimpleGrantedAuthority("ROLE_ADMIN"));
 
             if (authentication.isAuthenticated()) {
-                for (GrantedAuthority grantedAuthority : authorities) {
-                    if ("ROLE_ADMIN".equals(grantedAuthority.getAuthority())) {
-                        getSession().setAttribute("user", username);
-                        getUI().getNavigator().navigateTo(LoginMainView.NAME);
-                    } else {
-                        getSession().setAttribute("user", username);
-                        getUI().getNavigator().navigateTo(AccessDeniedView.NAME);
-                        Notification.show("Permission failed : Access denied to the Page please check your permissions.", Notification.Type.ERROR_MESSAGE);
-                        this.password.setValue(null);
-                        this.password.focus();
-                    }
+                if (userHasAuthority("ROLE_TEST",username,password)) {
+                    getSession().setAttribute("user", username);
+                    getUI().getNavigator().navigateTo(LoginMainView.NAME);
+                } else {
+                    getSession().setAttribute("user", username);
+                    getUI().getNavigator().navigateTo(AccessDeniedView.NAME);
+                    Notification.show("Permission failed : Access denied to the Page please check your permissions.", Notification.Type.ERROR_MESSAGE);
+                    this.password.setValue(null);
+                    this.password.focus();
                 }
+
             }
         } catch (BadCredentialsException e) {
             Notification.show("Authentication failed: " + e.getMessage(), Notification.Type.ERROR_MESSAGE);
@@ -134,5 +132,20 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
         public Class<String> getType() {
             return String.class;
         }
+    }
+
+    public static boolean userHasAuthority(String authority, String username, String password) {
+
+        WebApplicationContext ctx = WebApplicationContextUtils.getRequiredWebApplicationContext(VaadinServlet.getCurrent().getServletContext());
+        AuthenticationProvider authenticationProvider = (AuthenticationProvider) ctx.getBean("customAuthenticationProvider");
+        Authentication authentication = authenticationProvider.authenticate(new UsernamePasswordAuthenticationToken(username, password));
+
+        Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
+        for (GrantedAuthority grantedAuthority : authorities) {
+            if (authority.equals(grantedAuthority.getAuthority())) {
+                return true;
+            }
+        }
+        return false;
     }
 }

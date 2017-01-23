@@ -16,9 +16,15 @@ public class UserDao {
         user.setUsername("admin@admin.com");
         user.setPassword("password88");
         Role role = new Role();
-        role.setName("ROLE_ADMIN");
+        role.setName(Role.ROLE_ADMIN);
+        Role role1 = new Role();
+        role1.setName(Role.ROLE_USER);
+        Role role2 = new Role();
+        role2.setName(Role.ROLE_TRAINEE);
         List<Role> roles = new ArrayList<Role>();
         roles.add(role);
+        roles.add(role1);
+        roles.add(role2);
         user.setAuthorities(roles);
         return user;
     }

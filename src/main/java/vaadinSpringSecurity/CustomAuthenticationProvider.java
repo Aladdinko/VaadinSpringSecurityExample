@@ -22,7 +22,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
     UserService userService;
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-        String username = authentication.getName().trim();
+        String username = authentication.getName().trim().toLowerCase();
         String password = authentication.getCredentials().toString().trim();
 
         User user = userService.loadUserByUsername(username);

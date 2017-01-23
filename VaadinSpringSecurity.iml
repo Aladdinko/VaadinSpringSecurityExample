@@ -23,6 +23,14 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring-security.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-spring/1.1.1/vaadin-spring-1.1.1.jar!/com/vaadin/spring/VaadinConfiguration.class</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-spring/1.1.1/vaadin-spring-1.1.1.jar!/com/vaadin/spring/VaadinNavigatorConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/com/vaadin/vaadin-spring/1.1.1/vaadin-spring-1.1.1.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/org/vaadin/spring/extensions/vaadin-spring-ext-core/0.0.7.RELEASE/vaadin-spring-ext-core-0.0.7.RELEASE.jar!/org/vaadin/spring/config/VaadinExtensionsConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/org/vaadin/spring/extensions/vaadin-spring-ext-core/0.0.7.RELEASE/vaadin-spring-ext-core-0.0.7.RELEASE.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/org/vaadin/spring/extensions/vaadin-spring-ext-security/0.0.7.RELEASE/vaadin-spring-ext-security-0.0.7.RELEASE.jar!/org/vaadin/spring/security/config/VaadinManagedSecurityConfiguration.class</file>
+          <file>jar://$MAVEN_REPOSITORY$/org/vaadin/spring/extensions/vaadin-spring-ext-security/0.0.7.RELEASE/vaadin-spring-ext-security-0.0.7.RELEASE.jar!/org/vaadin/spring/security/config/VaadinSharedSecurityConfiguration.class</file>
+          <file>file://$MAVEN_REPOSITORY$/org/vaadin/spring/extensions/vaadin-spring-ext-security/0.0.7.RELEASE/vaadin-spring-ext-security-0.0.7.RELEASE.jar</file>
         </fileset>
       </configuration>
     </facet>
