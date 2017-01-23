@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="change from authentication manager to authentication provider">
+    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="change from authentication manager to authentication provider&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthenticationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurityDb/DBUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/VaadinSpringSecurity.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VaadinSpringS.iws" />
@@ -1079,7 +1091,7 @@
       <workItem from="1484835034301" duration="4563000" />
       <workItem from="1484899007244" duration="18402000" />
       <workItem from="1484920829829" duration="7855000" />
-      <workItem from="1485158333845" duration="9826000" />
+      <workItem from="1485158333845" duration="9880000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1484641639581</created>
@@ -1109,11 +1121,15 @@
       <created>1485168990361</created>
       <updated>1485168990361</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change from authentication manager to authentication provider">
+      <created>1485169223270</created>
+      <updated>1485169223270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175506000" />
+    <option name="totallyTimeSpent" value="175560000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
