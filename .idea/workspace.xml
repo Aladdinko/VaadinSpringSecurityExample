@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="change annotation to @Secured">
-      <change type="DELETED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\src\main\java\vaadinSpringSecurityDb\DBUtil.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java" afterPath="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/TestController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VaadinSpringSecurity.iml" afterPath="$PROJECT_DIR$/VaadinSpringSecurity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/VaadinSpringSecurity_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/VaadinSpringSecurity_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="delete vaadinspringsecurityDB">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VaadinSpringS.iws" />
@@ -97,7 +89,7 @@
       <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="-13.230769" vertical-offset="251" max-vertical-offset="714">
+            <state line="35" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -106,7 +98,7 @@
       <file leaf-file-name="CustomAuthenticationProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="731">
+            <state line="27" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -115,19 +107,28 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="-6.0384617" vertical-offset="30" max-vertical-offset="1003">
+            <state line="11" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.6257669" vertical-offset="0" max-vertical-offset="489">
+            <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1087" column="39" selection-start="57010" selection-end="57010" vertical-scroll-proportion="-16.916473" vertical-offset="25770" max-vertical-offset="27200">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,10 +136,8 @@
       <file leaf-file-name="TestController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="10" column="29" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,10 +145,8 @@
       <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="e#386#387#0" expanded="true" />
-              </folding>
+            <state line="22" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,10 +154,8 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1003">
-              <folding>
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
+            <state line="26" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1479">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,10 +163,8 @@
       <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding>
-                <element signature="e#498#504#0" expanded="true" />
-              </folding>
+            <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,9 +173,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="87" column="75" selection-start="3432" selection-end="3483" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="2448">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,6 +184,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" value="REBASE" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -350,6 +344,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -449,13 +444,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -673,16 +675,6 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -697,6 +689,16 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -707,6 +709,21 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -734,27 +751,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -772,6 +768,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="WEB" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.7.v20120910" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -982,6 +984,7 @@
       <workItem from="1484899007244" duration="18402000" />
       <workItem from="1484920829829" duration="7855000" />
       <workItem from="1485158333845" duration="14394000" />
+      <workItem from="1485176049305" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1484641639581</created>
@@ -1019,11 +1022,15 @@
       <created>1485169276666</created>
       <updated>1485169276666</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="delete vaadinspringsecurityDB">
+      <created>1485176149703</created>
+      <updated>1485176149703</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180074000" />
+    <option name="totallyTimeSpent" value="180227000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1050,34 +1057,34 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44827586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44827586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3147942" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58382875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34260288" sideWeight="0.2891374" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4262473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34260288" sideWeight="0.2891374" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15761448" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13897763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32480535" sideWeight="0.71086264" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3147942" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42714128" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15761448" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39829606" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1104,7 +1111,8 @@
     <MESSAGE value="Remove resources *.xml" />
     <MESSAGE value="change from authentication manager to authentication provider" />
     <MESSAGE value="change from authentication manager to authentication provider&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="change from authentication manager to authentication provider&#10;" />
+    <MESSAGE value="delete vaadinspringsecurityDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete vaadinspringsecurityDB" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VssConfiguration">
@@ -1201,6 +1209,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="75" selection-start="3432" selection-end="3483" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29188254" vertical-offset="169" max-vertical-offset="748" />
@@ -1213,9 +1235,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/CssLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="11" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.2457627" vertical-offset="1079" max-vertical-offset="6375">
-          <folding />
-        </state>
+        <state line="104" column="11" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.2457627" vertical-offset="1079" max-vertical-offset="6375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
@@ -1246,11 +1266,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.135436" vertical-offset="73" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1087" column="39" selection-start="60106" selection-end="60106" vertical-scroll-proportion="0.98513013" vertical-offset="17949" max-vertical-offset="23103" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/README">
@@ -1348,9 +1363,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/CustomComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="19" selection-start="3253" selection-end="3253" vertical-scroll-proportion="0.33274022" vertical-offset="1360" max-vertical-offset="2363">
-          <folding />
-        </state>
+        <state line="108" column="19" selection-start="3253" selection-end="3253" vertical-scroll-proportion="0.33274022" vertical-offset="1360" max-vertical-offset="2363" />
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.7.0_07/src.zip!/java/lang/Override.java">
@@ -1360,9 +1373,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="12" selection-start="5307" selection-end="5307" vertical-scroll-proportion="2.5711646" vertical-offset="343" max-vertical-offset="2210">
-          <folding />
-        </state>
+        <state line="121" column="12" selection-start="5307" selection-end="5307" vertical-scroll-proportion="2.5711646" vertical-offset="343" max-vertical-offset="2210" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/UI.java">
@@ -1377,30 +1388,22 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/server/ServerRpcManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="5121" selection-end="5121" vertical-scroll-proportion="0.4364641" vertical-offset="2007" max-vertical-offset="2550">
-          <folding />
-        </state>
+        <state line="159" column="0" selection-start="5121" selection-end="5121" vertical-scroll-proportion="0.4364641" vertical-offset="2007" max-vertical-offset="2550" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/event/ListenerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="529" column="0" selection-start="21115" selection-end="21115" vertical-scroll-proportion="0.33333334" vertical-offset="8438" max-vertical-offset="11118">
-          <folding />
-        </state>
+        <state line="529" column="0" selection-start="21115" selection-end="21115" vertical-scroll-proportion="0.33333334" vertical-offset="8438" max-vertical-offset="11118" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.18600368" vertical-offset="239" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="34" column="17" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.18600368" vertical-offset="239" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/core/GrantedAuthority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.12338858" vertical-offset="188" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="31" column="17" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.12338858" vertical-offset="188" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/MyUI.java">
@@ -1426,9 +1429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthenticationProvider.java">
@@ -1440,14 +1441,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="-6.0384617" vertical-offset="30" max-vertical-offset="1003">
+        <state line="11" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="-13.230769" vertical-offset="251" max-vertical-offset="714">
+        <state line="35" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
@@ -1455,54 +1456,51 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="75" selection-start="3432" selection-end="3483" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="2448">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="e#498#504#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1003">
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="29" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.6257669" vertical-offset="0" max-vertical-offset="489">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="1087" column="39" selection-start="57010" selection-end="57010" vertical-scroll-proportion="-16.916473" vertical-offset="25770" max-vertical-offset="27200">
+          <folding />
         </state>
       </provider>
     </entry>
