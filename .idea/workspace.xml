@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="delete vaadinspringsecurityDB">
+    <list default="true" id="f6d858f4-b26f-4ed4-bb8f-37acd62970a1" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_4_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VaadinSpringSecurity.iml" afterPath="$PROJECT_DIR$/VaadinSpringSecurity.iml" />
+    </list>
+    <list id="cf06535e-756f-4da5-adbc-74227192d28d" name="TOSEE" comment="">
+      <change type="DELETED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\.idea\artifacts\VaadinSpringS_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\.idea\artifacts\VaadinSpringS_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\.idea\dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Maggouh\Desktop\VaadinSpringSecurity\.idea\dataSources.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="VaadinSpringS.iws" />
+    <ignored path="VaadinSpringSecurity.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +23,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/VaadinSpringSecurity$WEB.coverage" NAME="WEB Coverage Results" MODIFIED="1484921494964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -60,119 +67,46 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java" line="85" class="vaadinSpringSecurity.LoginView" package="vaadinSpringSecurity">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="VaadinSpringS" />
+    <favorites_list name="VaadinSpringSecurity" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="spring-security.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="714">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomAuthenticationProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthenticationProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1087" column="39" selection-start="57010" selection-end="57010" vertical-scroll-proportion="-16.916473" vertical-offset="25770" max-vertical-offset="27200">
+            <state line="8" column="62" selection-start="918" selection-end="918" vertical-scroll-proportion="130.11539" vertical-offset="3519" max-vertical-offset="14603">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/TestController.java">
+      <file leaf-file-name="vcs.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/Role.java">
+      <file leaf-file-name="VaadinSpringSecurity.iml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VaadinSpringSecurity.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1479">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="75" selection-start="3432" selection-end="3483" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="2448">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7088388" vertical-offset="409" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
@@ -185,106 +119,15 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
-  <component name="Git.Push.Settings">
-    <option name="myUpdateMethod" value="REBASE" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitLogSettings">
-    <option name="myStructureFilterPaths" />
-    <option name="myDateState">
-      <MyDateState />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/VaadinSpringS.SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SneakyThrows.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/CustomThrows.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/config/CustomThrows.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SpringResourceWrapperOpenSAMLResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SAMLUserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SAMLUserDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SAMLConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/KeystoreFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/metadata/idp.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/saml-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/AccessDeneidView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/SpringContextHelper.java" />
-        <option value="$PROJECT_DIR$/VaadinSpringS.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/MyUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/LoginView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/LoginMainView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/VaadinSpringS/AccessDeniedView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurityDb/DBUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginMainView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthentificationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDAOImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/MyUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurityAuthProvider/CustomAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurityAuthProvider/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/file.log" />
-        <option value="$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="VaadinSpringSecurity" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="VaadinSpringSecurity" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -292,26 +135,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Spring Model</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>RequiredBeanTypeInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -325,11 +149,6 @@
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
-  </component>
-  <component name="ProjectStructureProblems">
-    <ignored-problems>
-      <problem id="unused-library(library:project:Maven: org.springframework.security.extensions:spring-security-saml2-sample:1.0.0.RELEASE-SNAPSHOT)" />
-    </ignored-problems>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -345,17 +164,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="VaadinSpringSecurity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -455,9 +269,122 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dictionaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="copyright" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VaadinSpringSecurity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,29 +398,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="FullScreen" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Maggouh\Desktop\VaadinSpringS\src\main\resources\security" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="vaadinSpringSecurity" />
-      <recent name="VaadinSpringS" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
   </component>
   <component name="RunManager" selected="Jetty Server.WEB">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -510,28 +417,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
@@ -556,6 +441,19 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -584,19 +482,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -770,13 +655,8 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="false" name="WEB" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.7.v20120910" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/vaadinsecurity/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="VaadinSpringSecurity:war">
@@ -875,43 +755,7 @@
       </server-settings>
       <predefined_log_file id="Jetty" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper VM_VAR="" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -942,150 +786,51 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\Maggouh\AppData\Roaming\Subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="397c6520-56ab-4dd4-bac2-d51fa058fa7a" name="Default" comment="" />
-      <created>1484048562048</created>
-      <updated>1484048562048</updated>
-      <workItem from="1484048565069" duration="11350000" />
-      <workItem from="1484122206983" duration="6598000" />
-      <workItem from="1484129054356" duration="8303000" />
-      <workItem from="1484139940587" duration="153000" />
-      <workItem from="1484140095525" duration="10828000" />
-      <workItem from="1484208748244" duration="5773000" />
-      <workItem from="1484225383986" duration="1830000" />
-      <workItem from="1484301914622" duration="1424000" />
-      <workItem from="1484554220372" duration="27595000" />
-      <workItem from="1484640465597" duration="10852000" />
-      <workItem from="1484654763917" duration="3187000" />
-      <workItem from="1484657998986" duration="10862000" />
-      <workItem from="1484725743005" duration="27089000" />
-      <workItem from="1484815764774" duration="8589000" />
-      <workItem from="1484834573031" duration="427000" />
-      <workItem from="1484835034301" duration="4563000" />
-      <workItem from="1484899007244" duration="18402000" />
-      <workItem from="1484920829829" duration="7855000" />
-      <workItem from="1485158333845" duration="14394000" />
-      <workItem from="1485176049305" duration="153000" />
+      <changelist id="f6d858f4-b26f-4ed4-bb8f-37acd62970a1" name="Default" comment="" />
+      <changelist id="cf06535e-756f-4da5-adbc-74227192d28d" name="TOSEE" comment="" />
+      <created>1485176412704</created>
+      <updated>1485176412704</updated>
+      <workItem from="1485176416039" duration="855000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit&#10;">
-      <created>1484641639581</created>
-      <updated>1484641639581</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Email change&#10;">
-      <created>1484641661184</created>
-      <updated>1484641661184</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test&#10;">
-      <created>1484654474797</created>
-      <updated>1484654474797</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test&#10;">
-      <created>1484655075326</created>
-      <updated>1484655075326</updated>
-    </task>
-    <task id="LOCAL-00005" summary="rectification : intercept-url">
-      <created>1484662565421</created>
-      <updated>1484662565421</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Remove resources *.xml">
-      <created>1484663988183</created>
-      <updated>1484663988183</updated>
-    </task>
-    <task id="LOCAL-00007" summary="change from authentication manager to authentication provider">
-      <created>1485168990361</created>
-      <updated>1485168990361</updated>
-    </task>
-    <task id="LOCAL-00008" summary="change from authentication manager to authentication provider">
-      <created>1485169223270</created>
-      <updated>1485169223270</updated>
-    </task>
-    <task id="LOCAL-00009" summary="change from authentication manager to authentication provider&#10;">
-      <created>1485169276666</created>
-      <updated>1485169276666</updated>
-    </task>
-    <task id="LOCAL-00010" summary="delete vaadinspringsecurityDB">
-      <created>1485176149703</created>
-      <updated>1485176149703</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180227000" />
-  </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44827586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3147942" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58382875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4262473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34260288" sideWeight="0.2891374" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15761448" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13897763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32480535" sideWeight="0.71086264" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39829606" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1097,514 +842,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
-    <MESSAGE value="Initial commit&#10;" />
-    <MESSAGE value="Email change&#10;" />
-    <MESSAGE value="test2" />
-    <MESSAGE value="test&#10;" />
-    <MESSAGE value="rectification : intercept-url" />
-    <MESSAGE value="Remove resources *.xml" />
-    <MESSAGE value="change from authentication manager to authentication provider" />
-    <MESSAGE value="change from authentication manager to authentication provider&#10;" />
-    <MESSAGE value="delete vaadinspringsecurityDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete vaadinspringsecurityDB" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="VssConfiguration">
-    <option name="CLIENT_PATH" value="" />
-    <option name="SRCSAFEINI_PATH" value="" />
-    <option name="USER_NAME" value="" />
-    <option name="PWD" value="" />
-    <CheckoutOptions>
-      <option name="COMMENT" value="" />
-      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
-      <option name="REPLACE_WRITABLE" value="false" />
-      <option name="RECURSIVE" value="false" />
-    </CheckoutOptions>
-    <CheckinOptions>
-      <option name="COMMENT" value="" />
-      <option name="KEEP_CHECKED_OUT" value="false" />
-      <option name="RECURSIVE" value="false" />
-    </CheckinOptions>
-    <AddOptions>
-      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
-      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
-    </AddOptions>
-    <UndocheckoutOptions>
-      <option name="MAKE_WRITABLE" value="false" />
-      <option name="REPLACE_LOCAL_COPY" value="2" />
-      <option name="RECURSIVE" value="false" />
-    </UndocheckoutOptions>
-    <GetOptions>
-      <option name="REPLACE_WRITABLE" value="0" />
-      <option name="MAKE_WRITABLE" value="false" />
-      <option name="ANSWER_NEGATIVELY" value="false" />
-      <option name="ANSWER_POSITIVELY" value="false" />
-      <option name="RECURSIVE" value="false" />
-      <option name="VERSION" />
-    </GetOptions>
+    <MESSAGE value="sa" />
+    <option name="LAST_COMMIT_MESSAGE" value="sa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="VaadinSpringS" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="VaadinSpringS" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="src" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="main" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="VaadinSpringS" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="VaadinSpringS" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="src" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="main" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="java" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="VaadinSpringS" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="VaadinSpringS" />
-        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="75" selection-start="3432" selection-end="3483" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29188254" vertical-offset="169" max-vertical-offset="748" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/CssLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="11" selection-start="3983" selection-end="3983" vertical-scroll-proportion="0.2457627" vertical-offset="1079" max-vertical-offset="6375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="186" selection-end="186" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="53" selection-start="5818" selection-end="5818" vertical-scroll-proportion="3.7217069" vertical-offset="306" max-vertical-offset="2686" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.135436" vertical-offset="73" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE.jar!/org/springframework/security/access/annotation/Secured.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/access/annotation/Secured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.9399293" vertical-offset="12" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/server/communication/ServerRpcHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="417" column="0" selection-start="16382" selection-end="16382" vertical-scroll-proportion="0.3322314" vertical-offset="5766" max-vertical-offset="10387" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/server/AbstractClientConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1016" column="0" selection-start="35341" selection-end="35341" vertical-scroll-proportion="0.3322314" vertical-offset="16255" max-vertical-offset="17680" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.3322314" vertical-offset="156" max-vertical-offset="10455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/event/EventRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="0" selection-start="5313" selection-end="5313" vertical-scroll-proportion="0.3322314" vertical-offset="2162" max-vertical-offset="3944" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/navigator/Navigator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="726" column="0" selection-start="26311" selection-end="26311" vertical-scroll-proportion="0.3322314" vertical-offset="11546" max-vertical-offset="16796">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="52.03846" vertical-offset="1353" max-vertical-offset="2227" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/AccessDeniedView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="66" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/maggouh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="111" selection-end="111" vertical-scroll-proportion="0.08232445" vertical-offset="0" max-vertical-offset="826" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/VaadinSpringS_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="82" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/VaadinSpringSecurity_war_exploded.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.16174734" vertical-offset="137" max-vertical-offset="1258" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/VaadinSpringSecurity_war.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.4.RELEASE/spring-web-4.3.4.RELEASE-sources.jar!/org/springframework/web/context/support/WebApplicationContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="40" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.3950178" vertical-offset="424" max-vertical-offset="6613">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/CustomComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="19" selection-start="3253" selection-end="3253" vertical-scroll-proportion="0.33274022" vertical-offset="1360" max-vertical-offset="2363" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7.0_07/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="971" selection-end="971" vertical-scroll-proportion="0.74861366" vertical-offset="54" max-vertical-offset="595" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="12" selection-start="5307" selection-end="5307" vertical-scroll-proportion="2.5711646" vertical-offset="343" max-vertical-offset="2210" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/ui/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="700" column="0" selection-start="23577" selection-end="23577" vertical-scroll-proportion="0.0" vertical-offset="10428" max-vertical-offset="27761" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="555" selection-end="555" vertical-scroll-proportion="0.16707617" vertical-offset="0" max-vertical-offset="814" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/server/ServerRpcManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="5121" selection-end="5121" vertical-scroll-proportion="0.4364641" vertical-offset="2007" max-vertical-offset="2550" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/7.7.6/vaadin-server-7.7.6-sources.jar!/com/vaadin/event/ListenerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="529" column="0" selection-start="21115" selection-end="21115" vertical-scroll-proportion="0.33333334" vertical-offset="8438" max-vertical-offset="11118" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.18600368" vertical-offset="239" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.2.0.RELEASE/spring-security-core-4.2.0.RELEASE-sources.jar!/org/springframework/security/core/GrantedAuthority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.12338858" vertical-offset="188" max-vertical-offset="731" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/MyUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginMainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="46" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="44" selection-start="4423" selection-end="4423" vertical-scroll-proportion="-0.65384614" vertical-offset="1989" max-vertical-offset="4437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/CustomAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="75" selection-start="3432" selection-end="3483" vertical-scroll-proportion="0.0" vertical-offset="1333" max-vertical-offset="2448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vaadinSpringSecurity/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1087" column="39" selection-start="57010" selection-end="57010" vertical-scroll-proportion="-16.916473" vertical-offset="25770" max-vertical-offset="27200">
+        <state line="8" column="62" selection-start="918" selection-end="918" vertical-scroll-proportion="130.11539" vertical-offset="3519" max-vertical-offset="14603">
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>VaadinSpringS:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>GWT</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>sass-stdlib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|VaadinSpringSecurity</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VaadinSpringSecurity.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7088388" vertical-offset="409" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 
