@@ -13,6 +13,7 @@ import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
@@ -80,13 +81,11 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
             String password = this.password.getValue();
             Authentication authentication = authenticationProvider.authenticate(new UsernamePasswordAuthenticationToken(username, password));
             Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
-
-
-            //boolean authorized = authorities.contains(new SimpleGrantedAuthority("ROLE_ADMIN"));
+            boolean authorized = authorities.contains(new SimpleGrantedAuthority("ROLE_ADMIN"));
 
             if (authentication.isAuthenticated()) {
                 for (GrantedAuthority grantedAuthority : authorities) {
-                    if ("ROLE_USER".equals(grantedAuthority.getAuthority())) {
+                    if ("ROLE_ADMIN".equals(grantedAuthority.getAuthority())) {
                         getSession().setAttribute("user", username);
                         getUI().getNavigator().navigateTo(LoginMainView.NAME);
                     } else {

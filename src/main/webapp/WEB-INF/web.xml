@@ -5,17 +5,16 @@
      http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
     <context-param>
-        <description>
-            Vaadin production mode</description>
+        <description>Vaadin production mode</description>
         <param-name>productionMode</param-name>
         <param-value>false</param-value>
     </context-param>
 
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>
-            /WEB-INF/spring-security.xml
-        </param-value>
+        <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>
+    /WEB-INF/spring-security.xml
+    </param-value>
     </context-param>
 
     <!--Spring's DelegatingFilterProxy provides the link between web.xml and the application context.-->
@@ -38,14 +37,18 @@
         <servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
         <init-param>
             <param-name>UI</param-name>
-            <param-value>vaadinSpringSecurity.MyUI</param-value>
+            <param-value>
+                vaadinSpringSecurity.MyUI
+            </param-value>
         </init-param>
+
     </servlet>
 
     <servlet-mapping>
         <servlet-name>vaadinServlet</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
+
 
 
 </web-app>
